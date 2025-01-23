@@ -1,6 +1,7 @@
 // Import necessary libraries
 const { expect } = require("chai");
 const { ethers } = require("hardhat");
+const { isCallTrace } = require("hardhat/internal/hardhat-network/stack-traces/message-trace");
 
 describe("CreateCollection Contract", function () {
     let CreateCollection;
