@@ -1,5 +1,5 @@
 // // SPDX-License-Identifier: MIT
-pragma solidity >=0.8.0;
+pragma solidity ^0.8.0;
 
 contract CreateCollection {
     uint256 private _tokenIds;
@@ -9,7 +9,7 @@ contract CreateCollection {
         string name;
         address owner;
         bool isActive;
-    }
+    } 
 
     struct NFT {
         string name;
