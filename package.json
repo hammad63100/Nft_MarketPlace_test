@@ -1,0 +1,23 @@
+{
+  "name": "nft_marketplace_test",
+  "version": "1.0.0",
+  "description": "Nft_MarketPlace test using hardhat",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hammad63100/Nft_MarketPlace_test.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hammad63100/Nft_MarketPlace_test/issues"
+  },
+  "homepage": "https://github.com/hammad63100/Nft_MarketPlace_test#readme",
+  "devDependencies": {
+    "hardhat": "^2.22.18"
+  }
+}
