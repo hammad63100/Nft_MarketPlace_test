@@ -303,11 +303,6 @@ describe("CreateCollection and NFTMarketplace Contracts", function () {
       expect(currentTime.toNumber()).to.be.a("number");
     });
 
-    // it("Should convert uint to string", async function () {
-    //   const number = 123;
-    //   const result = await nftMarketplace.toString(number);
-    //   // Convert BigNumber to string and then compare
-    //   expect(ethers.utils.formatUnits(result, 0).replace('.0', '')).to.equal("123");
-    // });
+
     });
 });
