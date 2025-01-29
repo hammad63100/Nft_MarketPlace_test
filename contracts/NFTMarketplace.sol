@@ -275,22 +275,30 @@ contract NFTMarketplace {
     }
 
     // Add helper function for converting uint to string
-    function toString(uint256 value) internal pure returns (string memory) {
-        if (value == 0) {
-            return "0";
-        }
-        uint256 temp = value;
-        uint256 digits;
-        while (temp != 0) {
-            digits++;
-            temp /= 10;
-        }
-        bytes memory buffer = new bytes(digits);
-        while (value != 0) {
-            digits -= 1;
-            buffer[digits] = bytes1(uint8(48 + uint256(value % 10)));
-            value /= 10;
-        }
-        return string(buffer);
+function toString(uint256 value) public pure returns (string memory) {
+    // Handle zero case
+    if (value == 0) {
+        return "0";
     }
+    
+    // Find number of digits
+    uint256 temp = value;
+    uint256 digits;
+    while (temp != 0) {
+        digits++;
+        temp /= 10;
+    }
+    
+    // Create bytes array
+    bytes memory buffer = new bytes(digits);
+    
+    // Fill buffer from right to left
+    while (value != 0) {
+        digits -= 1;
+        buffer[digits] = bytes1(uint8(48 + uint256(value % 10)));
+        value /= 10;
+    }
+    
+    return string(buffer);
+}
 }

@@ -73,6 +73,79 @@
         "ICreateCollection",
         "NFTMarketplace"
       ]
+    },
+    "D:\\octaloop tech\\New folder\\NFT_MarketPlace_FullyProject testing using hardhat\\Nft_MarketPlace_test\\contracts\\CreateCollection.sol": {
+      "lastModificationDate": 1737619069769,
+      "contentHash": "5c13bba43518f57433adc232810c32cd",
+      "sourceName": "contracts/CreateCollection.sol",
+      "solcConfig": {
+        "version": "0.8.28",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "CreateCollection"
+      ]
+    },
+    "D:\\octaloop tech\\New folder\\NFT_MarketPlace_FullyProject testing using hardhat\\Nft_MarketPlace_test\\contracts\\NFTMarketplace.sol": {
+      "lastModificationDate": 1738132488598,
+      "contentHash": "5efa6621a214987f81b708a2bb988595",
+      "sourceName": "contracts/NFTMarketplace.sol",
+      "solcConfig": {
+        "version": "0.8.28",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "ICreateCollection",
+        "NFTMarketplace"
+      ]
     }
   }
 }
